@@ -6,7 +6,7 @@ function App() {
       </header> 
 
       <body>
-          <div id="boarding-pass">
+        <div id="boarding-pass">
           <h1>Cartão de embarque</h1>
           <main id="ticket">
             <section class="flight-info">
@@ -73,8 +73,8 @@ function App() {
               <p><strong>Atenção:</strong> o portão fecha as 16:45</p>    
             </section>
           </main>
-          <footer>Qualquer problema procure o balcão de atendimento da sua companhia aérea</footer>
-          </div>
+          <footer id="footer">Qualquer problema procure o balcão de atendimento da sua companhia aérea</footer>
+        </div>
       </body>
     </div>
   );

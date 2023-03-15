@@ -21,4 +21,64 @@
 body {
     font-size: 1.6rem;
     font-family:'Rubik', sans-serif;
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
+    height: 100vh;
+    display: grid;
+}
+
+h1 {
+  font-family: Rubik;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+h1, strong {
+  font-weight: 500;
+}
+
+#boarding-pass {
+  max-width: 32.7rem;
+  margin: auto;
+}
+
+#ticket {
+  margin-top: 2rem;
+}
+
+#footer{
+  width: 28.914rem;
+  margin: 2rem auto;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  opacity: 0.64;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+}
+
+section {
+  padding: 3.2rem 2rem;
+  background-color: white;
+}
+.flight-info {
+  border-radius: 2.4rem 2.4rem 0 0;
+}
+
+.bottom {
+  border-radius: 0 0 2.4rem 2.4rem;
 }
